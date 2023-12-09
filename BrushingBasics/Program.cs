@@ -6,7 +6,7 @@ namespace Basics
 {
     public class PrimeNumber
     {
-        public int[] numbers = { 20, 21, 22, 23, 24, 25 };
+        public int[] numbers = { 20, 21, 22, 23, 24, 25, 26, 27};
 
         static void Main(string[] args)
         {
