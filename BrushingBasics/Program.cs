@@ -13,7 +13,7 @@ namespace Basics
             PrimeNumber p = new PrimeNumber();
             for (int i = 0; i < p.numbers.Length; i++)
             {
-                if (p.numbers[i] % 2 == 0)
+                if (p.numbers[i] % 2 != 0)
                 {
                     Console.WriteLine("{0} is not the prime number", p.numbers[i]);
                 }
